@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Name="" Version="3.16" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="2047" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" ReportOptions.CreateDate="41016,3672745602" ReportOptions.Description.Text="" ReportOptions.LastChange="41864,3514100347" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." StoreInDFM="False" PropData="044C65667403D00003546F70026008446174617365747301010C3600000020446174615365743D2244424652584C617374506F6B617A2220446174615365744E616D653D2244424652584C617374506F6B617A220000095661726961626C65730100055374796C650100">
+  <TfrxReportPage Name="Page1" Orientation="poLandscape" PaperWidth="297" PaperHeight="210" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="0" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" TitleBeforeHeader="False" HGuides.Text="" VGuides.Text="">
+    <TfrxMasterData Name="MasterData1" Height="18,89765" Left="0" Top="132,28355" Width="1046,92981" ColumnWidth="0" ColumnGap="0" DataSet="DBFRXLastPokaz" DataSetName="DBFRXLastPokaz" RowCount="0">
+      <TfrxMemoView Name="Memo2" Left="279,68522" Top="0" Width="79,37013" Height="18,89765" DataSet="DBFRXLastPokaz" DataSetName="DBFRXLastPokaz" Frame.Typ="15" Text="[DBFRXLastPokaz.&#34;SERIAL_NUMBER&#34;]"/>
+      <TfrxMemoView Name="Memo7" Left="597,16574" Top="0" Width="45,35436" Height="18,89765" DataField="DOM" DataSet="DBFRXLastPokaz" DataSetName="DBFRXLastPokaz" Frame.Typ="14" Text="[DBFRXLastPokaz.&#34;DOM&#34;]"/>
+      <TfrxMemoView Name="Memo8" Left="642,5201" Top="0" Width="64,25201" Height="18,89765" DataSet="DBFRXLastPokaz" DataSetName="DBFRXLastPokaz" Frame.Typ="15" Text="[DBFRXLastPokaz.&#34;LAST_POK&#34;]"/>
+      <TfrxMemoView Name="Memo9" Left="706,77211" Top="0" Width="86,92919" Height="18,89765" DataSet="DBFRXLastPokaz" DataSetName="DBFRXLastPokaz" Frame.Typ="15" HAlign="haRight" Text="[DBFRXLastPokaz.&#34;DATE_LAST_POK&#34;]"/>
+      <TfrxMemoView Name="Memo13" Left="0" Top="0" Width="41,57483" Height="18,89765" Text="[Line#]"/>
+      <TfrxMemoView Name="Memo14" Left="404,40971" Top="0" Width="192,75603" Height="18,89765" DataField="STREET" DataSet="DBFRXLastPokaz" DataSetName="DBFRXLastPokaz" Frame.Typ="13" Text="[DBFRXLastPokaz.&#34;STREET&#34;]"/>
+      <TfrxMemoView Name="Memo15" Left="359,05535" Top="0" Width="45,35436" Height="18,89765" DataField="COUNTER_ADDRESS" DataSet="DBFRXLastPokaz" DataSetName="DBFRXLastPokaz" Frame.Typ="15" Text="[DBFRXLastPokaz.&#34;COUNTER_ADDRESS&#34;]"/>
+      <TfrxMemoView Name="Memo17" Left="147,40167" Top="0" Width="41,57483" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="[DBFRXLastPokaz.&#34;CON_NAME&#34;]"/>
+      <TfrxMemoView Name="Memo1" Left="793,7013" Top="0" Width="188,9765" Height="18,89765" Frame.Typ="15" Text="[DBFRXLastPokaz.&#34;COMMENTS&#34;]"/>
+      <TfrxMemoView Name="Memo3" Left="41,57483" Top="0" Width="105,82684" Height="18,89765" Frame.Typ="15" Text="[DBFRXLastPokaz.&#34;COUNTER_NAME&#34;]"/>
+      <TfrxMemoView Name="Memo4" Left="982,6778" Top="0" Width="26,45671" Height="18,89765" Frame.Typ="15" Text="[DBFRXLastPokaz.&#34;ACTUAL&#34;]"/>
+      <TfrxMemoView Name="Memo5" Left="188,9765" Top="0" Width="90,70872" Height="18,89765" Frame.Typ="15" Text="[DBFRXLastPokaz.&#34;DIST&#34;]"/>
+    </TfrxMasterData>
+    <TfrxReportTitle Name="ReportTitle1" Height="52,91342" Left="0" Top="18,89765" Width="1046,92981">
+      <TfrxMemoView Name="Memo6" Left="3,77953" Top="15,11812" Width="279,68522" Height="34,01577" Font.Charset="1" Font.Color="0" Font.Height="-27" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="Последние показания"/>
+      <TfrxMemoView Name="Memo10" Left="948,66203" Top="11,33859" Width="94,48825" Height="18,89765" Text="[Date]"/>
+    </TfrxReportTitle>
+  </TfrxReportPage>
+</TfrxReport>
